@@ -22,8 +22,8 @@ Tips:
 
 I suggest you begin by running the code and see how it uses the functions on it.
 
-Lines 73,74,77 and 78 are commented as they are not needed in general, but is the rays start to go out of the model you can uncomment them (this will make the code run slower). I would suggest you make your model bigger than you need to avoid using this lines and the true raypath could be outside the box
+Lines 73,74,77 and 78 are commented as they are not needed in general, but if the ray go out of the model you can uncomment them (this will make the code run slower). I would suggest you make your model bigger than as avoid using this lines as the true raypath could be outside the "box".
 
-To use in your own script I suggest adding lines from 6 to 19 to your code and then lines 34 to 104 to the end of your Matlab script. Raybender can be inside a for loop to trace several rays at once. This is not done automatically as the goal of this code is to be efficient (which many raytracer written for Matlab are not). You could also turn the functions to Matlab functions instead. 
+To use in your own script I suggest adding lines from 6 to 19 to your code and then lines 34 to 104 to the end of your Matlab script. Raybender can be inside a for loop to trace several rays at once. This is not done automatically as the goal of this code is to be efficient (which many raytracer written for Matlab are not). You could also turn the functions at the end to Matlab functions files instead. 
 
 
